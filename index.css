@@ -1,0 +1,366 @@
+.section{ background: linear-gradient(105deg, white 50%, #f6b400 50%);
+height: 700px;
+width: 100%;}
+.burga {
+    position: absolute;
+    top: 4.7%;
+    left: 7%;
+}
+em {
+    color:#f6b400;
+}
+
+.nav-section>nav {
+    margin-right: 80px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+.nav-section>nav>a{
+    justify-content: space-between;
+    font-weight: 800;
+    color: black;
+    padding: 30px;
+    text-decoration: none;
+    
+}
+.basket{
+    margin-left: 90%;
+    position: absolute;
+    top: 4%;
+}
+.image {
+    position: absolute;
+    left: 50%;
+    width: auto;
+    height: auto;
+    max-height: 580px;
+    max-width: 580px;
+}
+.now{
+    height: 50px;
+    width: 200%;
+    background-color: #f6b400;
+    border-top-right-radius:35%;
+    border-top-left-radius: 32%;
+    border-bottom-left-radius:32%;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+.shine{
+    font-weight: 900;
+    font-size: 37px;
+    margin-top: 5%;
+    margin-left: 4%;
+    
+}
+.deliver{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-left: 4%;
+    padding-bottom: 30px;
+
+}
+.opt{
+    position: absolute;
+    margin-left:80px;
+    
+}
+
+.section2{
+   background: #E1EBE6;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+
+    
+}
+.section2 > div {
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+.quality-burgers{
+    height: 70%;
+    width: 50%;
+    border-radius: 15px;
+    padding-top: 1%;
+    margin-left: 6%;
+    border: 1px solid black;
+    border-radius: 6%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 3%;
+}
+.delicious-meals{
+    height:70%;
+    width: 50%;
+    border-radius: 15px;
+    margin-left: 20%;
+    padding-top: 2%;
+    border: 1px solid black;
+    border-radius: 6%;
+    padding-left: 1%;
+    margin-right: 1%;
+    padding-right: 2%;
+    margin-top: 10%;
+
+
+}
+.quality-burgers,.fast-delivery,.delicious-meals{
+    text-align: center;
+}
+ .delicious,.quality,.FastDelivery{
+     font-size: 30px;
+     font-family: inherit;
+ }
+ .quality{
+     margin-top: 7%;
+ }
+ .lorem{
+     font-size: 22px;
+ }
+.fast-delivery{
+border-radius: 15px;
+height: 70%;
+width: 50%;
+margin-left: 19%;
+padding-top:2%;
+margin-bottom: 3%;
+border: 1px solid black;
+border-radius: 6%;
+padding-right: 3%;
+padding-left: 3%;
+padding-bottom: 2%;
+margin-right: 0%;
+}
+
+
+
+nav>a:hover{background-color: green;}
+nav>a:hover{color: white;}
+
+.section3{
+background-color: white;
+margin: 10px;
+padding: 20px;
+height: 600px;
+
+}
+.section3-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: inherit;
+    margin-left: 6%; 
+
+}
+.menu{
+text-align: center;
+font-weight: bold;
+font-size: 30px;
+position: relative;
+
+
+}
+.menu::after{
+    content: '';
+    height: 9px;
+    width: 5%;
+    background: #f6b400;
+    position: absolute;
+    left:47.5%;
+    bottom:0px;
+    top: 36px;
+}
+
+.p-3 {
+    text-align: center;
+
+}
+.shop{
+    margin-left: 8%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.money{
+ font-size: 20px;
+
+ 
+}
+.shopping{
+ margin: 20px;   
+}
+.button2{
+display: flex;
+flex-direction: row;
+width: 60px;
+justify-content: space-around;
+height: 20px;
+margin-top:18px;
+margin-left:20px;
+}
+.col3,.col4,.col5,.col6,.col7,.col8{
+    border: 1px solid black;
+    height: 380px;
+    width: 380px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 15%;
+    box-shadow: 2px 6px 6px gainsboro;
+    border:1px solid gainsboro;
+
+}
+.section4{
+    height: 520px;
+    width: 100%;
+    margin-top: 8%;
+    background-color: #E1EBE6;
+    padding-bottom: 10px;
+    
+}
+.taste{
+    float: left;
+    font-size: 20px;
+    margin-left: 150px;
+    font: 1em sans-serif;
+       
+}
+.taste>p>strong{
+    font-size: 40px;
+    font-weight: 900;
+}
+.decker{ color: #f6b400;
+    font-weight: 900;
+    font-size: 59px;
+
+}
+.mouth{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 0px;
+}
+.chec{
+    position: absolute;
+    right: 1%;
+    margin-right:7% ;
+}
+.check{
+    position:absolute;
+    right: 1%;
+    margin-right: 16%;
+    margin-top:5% ;
+}
+.td{
+    font-size: 59px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+.phones{
+	top:540%;
+	position: absolute;
+	right: 6%;
+}
+.phone{
+    top:540%;
+	position: absolute;
+    left: 50%;
+}
+.mobile{
+	font-size: 50px;
+	font-weight: 900;
+	margin-left: 6%;
+	position: absolute;
+	
+   
+   
+}
+.section5{
+    background-color: #f6b400;
+    height: 700px;
+    padding-top:1%;
+
+}
+
+.section6{
+    display: flex;
+    background-color: #E1EBE6;
+}
+.buttons{
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.letter{
+    font-size: 34px;
+}
+.enter{
+    border: 3px solid gainsboro;
+    border-radius: 5%;
+    color: gray;
+    height:42px;
+    width:200px;
+    margin-bottom: 20%;
+    text-align: justify;
+}
+.subs{
+    height:44px;
+    width:170px;
+    background-color: #f6b400;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 14%;
+    text-align: center;
+      
+}
+.email{
+display: flex;
+flex-direction: row;
+
+}
+.site{
+    margin-left:20% ;
+    margin-top:1% ;
+    font-size: 20px;
+    font-weight: 500;
+}
+.map{
+    font-weight: 800;
+    font-size: 30px;
+}
+.b-icon{
+  display: flex;
+  flex-direction: row; 
+  margin-top: 6%;
+  margin-left: 5%; 
+}
+.buga{
+    margin-top: 38%;
+    font-size:25px ;
+}
+iconZ{
+    height: 0px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    background-color: white;
+}
+.author{
+  text-align: justify; 
+  font-weight: bold; 
+}
+.right{
+    font-weight: bold;
+}
+.media{
+    margin-top: 1%;
+}
